@@ -1,5 +1,7 @@
 # Security Policy
 
+[English](SECURITY.md) · [简体中文](SECURITY.zh-CN.md)
+
 Security reports should **not** be submitted through public GitHub issues.
 
 If you believe you have found a security vulnerability affecting Modelify, please contact the Modelify team privately through the contact method published on the official website:
