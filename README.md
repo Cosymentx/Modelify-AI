@@ -20,10 +20,22 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Website-modelify.fit-black" alt="Website" />
   <img src="https://img.shields.io/badge/License-Apache--2.0-blue" alt="License" />
-  <img src="https://img.shields.io/badge/Project-Public%20Showcase-brightgreen" alt="Project type" />
+  <img src="https://img.shields.io/badge/Fashion%20AI-Cookbook-brightgreen" alt="Fashion AI Cookbook" />
 </p>
 
 ---
+
+## Free Fashion AI Resources
+
+If you're working on AI fashion photography or e-commerce imagery, start here:
+
+- **[Fashion E-commerce AI Cookbook](cookbook/README.md)** — practical workflows and best practices
+- **[Source Image Preparation](cookbook/source-image-preparation.md)** — how to prepare product photos for better results
+- **[Fashion Prompt Library](cookbook/prompt-library.md)** — reusable prompts for catalog, editorial, streetwear, activewear and more
+- **[Shopify Image Workflow](cookbook/shopify-workflow.md)** — a repeatable SKU-to-storefront workflow
+- **[Troubleshooting Guide](cookbook/troubleshooting.md)** — common garment, color, logo and consistency problems
+
+> ⭐ If these resources are useful, star the repository to keep it handy and follow future additions.
 
 ## What is Modelify?
 
@@ -45,14 +57,7 @@ It helps sellers and brands transform clothing product images into realistic mod
 
 Modelify is a commercial SaaS product with a public project surface.
 
-This repository is the public home for:
-
-- Product documentation
-- Architecture overviews
-- Integration examples
-- API direction
-- Roadmap visibility
-- Community feedback
+This repository is the public home for useful fashion-AI resources, product documentation, architecture overviews, integration examples, API direction, roadmap visibility, and community feedback.
 
 > **Important:** this is not a full source-code mirror of the production Modelify platform.
 
@@ -76,47 +81,7 @@ AI Generation
 E-commerce Ready Image
 ```
 
-At the platform level:
-
-```text
-Client / Storefront
-        │
-        ▼
-   Modelify Cloud
-        │
-        ├── Product & account services
-        ├── Generation orchestration
-        ├── Image processing pipeline
-        └── Storage & delivery
-        │
-        ▼
- AI generation providers
-```
-
-Read the [architecture overview](docs/architecture.md) for more.
-
-## Repository structure
-
-```text
-.
-├── README.md
-├── README.zh-CN.md
-├── LICENSE
-├── ROADMAP.md
-├── ROADMAP.zh-CN.md
-├── SECURITY.md
-├── SECURITY.zh-CN.md
-├── CONTRIBUTING.md
-├── CONTRIBUTING.zh-CN.md
-├── docs/
-│   ├── architecture.md
-│   ├── architecture.zh-CN.md
-│   ├── api-overview.md
-│   └── api-overview.zh-CN.md
-└── examples/
-    ├── curl-example.md
-    └── curl-example.zh-CN.md
-```
+Read the [architecture overview](docs/architecture.md) for the platform-level view.
 
 ## API & integrations
 
@@ -131,55 +96,20 @@ Official SDKs are **not** required for the first public phase. We prefer to buil
 
 ## Roadmap
 
-Current direction includes:
-
-- Better generation quality and reliability
-- Public API access
-- Webhook-based workflows
-- Shopify workflow improvements
-- WooCommerce integration
-- Better batch and automation workflows
-- SDKs when external demand justifies them
+Current direction includes better generation quality and reliability, public API access, webhook-based workflows, Shopify improvements, WooCommerce integration, better batch automation, and SDKs when external demand justifies them.
 
 See [ROADMAP.md](ROADMAP.md).
 
 ## Open source boundary
 
-### Public
+**Public:** documentation, cookbook resources, architecture overview, integration guidance, API examples, roadmap, and community contributions.
 
-- Documentation
-- Architecture overview
-- Integration guidance
-- API examples
-- Roadmap
-- Community contributions
+**Private:** generation workers, AI provider routing, prompting and tuning, image preprocessing heuristics, queue/concurrency implementation, retry/fallback strategy, cost optimization, billing/credits, production database design, and internal administration systems.
 
-### Private
+## Security & contributing
 
-- Generation workers
-- AI provider routing
-- Prompting and tuning
-- Image preprocessing heuristics
-- Queue and concurrency implementation
-- Retry and fallback strategy
-- Cost optimization
-- Billing and credits
-- Production database design
-- Internal administration systems
-
-This boundary lets Modelify be transparent and integration-friendly while keeping the production platform maintainable and commercially sustainable.
-
-## Security
-
-Please do not report security vulnerabilities through public GitHub issues.
-
-See [SECURITY.md](SECURITY.md) for responsible disclosure guidance.
-
-## Contributing
-
-Documentation improvements, integration ideas, reproducible bug reports, and developer-experience feedback are welcome.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+- [Security policy](SECURITY.md)
+- [Contributing guide](CONTRIBUTING.md)
 
 ## License
 
