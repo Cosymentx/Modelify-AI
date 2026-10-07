@@ -108,7 +108,8 @@ AI 生成
 │   ├── api-overview.md
 │   └── api-overview.zh-CN.md
 └── examples/
-    └── curl-example.md
+    ├── curl-example.md
+    └── curl-example.zh-CN.md
 ```
 
 ## API 与集成
@@ -118,7 +119,7 @@ AI 生成
 当前仓库只描述计划中的公共集成边界，不会暴露内部生产接口，也不会把尚未正式支持的接口描述成可用功能。
 
 - [API 概览](docs/api-overview.zh-CN.md)
-- [cURL 示例](examples/curl-example.md)
+- [cURL 示例](examples/curl-example.zh-CN.md)
 
 第一阶段我们不会为了“看起来完整”而强行维护 SDK。只有当真实外部需求足够明确时，才会增加并长期维护官方 SDK。
 
