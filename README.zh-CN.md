@@ -19,6 +19,18 @@
 
 ---
 
+## 免费 Fashion AI 资源
+
+如果你正在做 AI 时尚摄影或电商商品图，可以从这些内容开始：
+
+- **[时尚电商 AI Cookbook](cookbook/README.zh-CN.md)** — 实用工作流与最佳实践
+- **[原图准备指南](cookbook/source-image-preparation.zh-CN.md)** — 如何准备更适合 AI 生成的商品图
+- **[Fashion Prompt Library](cookbook/prompt-library.zh-CN.md)** — Catalog、Editorial、Streetwear、Activewear 等可复用 Prompt
+- **[Shopify 商品图工作流](cookbook/shopify-workflow.zh-CN.md)** — 从 SKU 到店铺发布的可重复流程
+- **[常见问题排查](cookbook/troubleshooting.zh-CN.md)** — 服装变形、颜色偏移、Logo、系列一致性等问题
+
+> ⭐ 如果这些资源对你有帮助，可以 Star 本仓库，方便以后继续使用和获取更新。
+
 ## Modelify 是什么？
 
 Modelify 是一个专为时尚电商打造的 AI 商品摄影平台。
@@ -39,14 +51,7 @@ Modelify 是一个专为时尚电商打造的 AI 商品摄影平台。
 
 Modelify 是商业 SaaS 产品，同时保留一个公开的项目入口。
 
-这个仓库主要用于：
-
-- 产品文档
-- 架构概览
-- 集成示例
-- API 方向说明
-- Roadmap
-- 社区反馈
+这个仓库主要用于公开有价值的 Fashion AI 资源、产品文档、架构概览、集成示例、API 方向、Roadmap 和社区反馈。
 
 > **注意：** 这里不是 Modelify 生产环境完整源码的镜像。
 
@@ -70,47 +75,7 @@ AI 生成
 可直接用于电商的成品图
 ```
 
-平台层面的高层架构：
-
-```text
-客户端 / 电商店铺
-       │
-       ▼
-   Modelify Cloud
-       │
-       ├── 产品与账户服务
-       ├── 生成任务编排
-       ├── 图片处理流程
-       └── 存储与结果交付
-       │
-       ▼
-   AI 生成服务
-```
-
-更多信息请阅读 [架构概览](docs/architecture.zh-CN.md)。
-
-## 仓库结构
-
-```text
-.
-├── README.md
-├── README.zh-CN.md
-├── LICENSE
-├── ROADMAP.md
-├── ROADMAP.zh-CN.md
-├── SECURITY.md
-├── SECURITY.zh-CN.md
-├── CONTRIBUTING.md
-├── CONTRIBUTING.zh-CN.md
-├── docs/
-│   ├── architecture.md
-│   ├── architecture.zh-CN.md
-│   ├── api-overview.md
-│   └── api-overview.zh-CN.md
-└── examples/
-    ├── curl-example.md
-    └── curl-example.zh-CN.md
-```
+平台级架构请阅读 [架构概览](docs/architecture.zh-CN.md)。
 
 ## API 与集成
 
@@ -121,59 +86,24 @@ AI 生成
 - [API 概览](docs/api-overview.zh-CN.md)
 - [cURL 示例](examples/curl-example.zh-CN.md)
 
-第一阶段我们不会为了“看起来完整”而强行维护 SDK。只有当真实外部需求足够明确时，才会增加并长期维护官方 SDK。
+第一阶段不会为了“看起来完整”而强行维护 SDK。只有当真实外部需求足够明确时，才会增加并长期维护官方 SDK。
 
 ## Roadmap
 
-当前方向包括：
-
-- 持续提升生成质量和稳定性
-- 开放 Public API
-- Webhook 工作流
-- Shopify 工作流增强
-- WooCommerce 集成
-- 更完善的批量与自动化能力
-- 根据真实需求推出 SDK
+当前方向包括持续提升生成质量和稳定性、开放 Public API、Webhook 工作流、Shopify 增强、WooCommerce 集成、批量自动化，以及根据真实需求推出 SDK。
 
 查看完整 [Roadmap](ROADMAP.zh-CN.md)。
 
 ## 开源边界
 
-### 公开部分
+**公开部分：** 文档、Cookbook 资源、架构概览、集成说明、API 示例、Roadmap 和社区贡献。
 
-- 文档
-- 架构概览
-- 集成说明
-- API 示例
-- Roadmap
-- 社区贡献
+**私有部分：** Generation Worker、AI Provider 路由、Prompt 与参数调优、图片预处理策略、队列与并发实现、Retry/Fallback、成本优化、Billing/Credits、生产数据库设计和内部管理系统。
 
-### 私有部分
+## 安全与贡献
 
-- Generation Worker
-- AI Provider 路由
-- Prompt 与参数调优
-- 图片预处理策略
-- 队列与并发实现
-- Retry / Fallback 策略
-- 成本优化
-- Billing / Credits
-- 生产数据库设计
-- 内部管理系统
-
-这样的边界既能让 Modelify 对开发者保持透明和友好，也能保护并持续维护核心商业平台。
-
-## 安全
-
-请不要通过公开 GitHub Issue 报告安全漏洞。
-
-请阅读 [SECURITY.zh-CN.md](SECURITY.zh-CN.md)。
-
-## 贡献
-
-欢迎提交文档改进、集成建议、可复现 Bug 以及开发者体验反馈。
-
-请阅读 [CONTRIBUTING.zh-CN.md](CONTRIBUTING.zh-CN.md)。
+- [安全策略](SECURITY.zh-CN.md)
+- [贡献指南](CONTRIBUTING.zh-CN.md)
 
 ## License
 
