@@ -1,5 +1,7 @@
 # Contributing to Modelify
 
+[English](CONTRIBUTING.md) · [简体中文](CONTRIBUTING.zh-CN.md)
+
 Thanks for your interest in Modelify.
 
 This public repository focuses on documentation, examples, integrations, and community feedback rather than the complete production source code.
