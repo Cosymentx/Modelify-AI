@@ -1,5 +1,7 @@
 # cURL Integration Example
 
+[English](curl-example.md) · [简体中文](curl-example.zh-CN.md)
+
 This example demonstrates the **shape of a future Modelify API integration**.
 
 It is illustrative and should not be treated as a currently supported production endpoint unless the official API documentation explicitly says otherwise.
