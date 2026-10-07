@@ -1,5 +1,7 @@
 # Modelify Architecture Overview
 
+[English](architecture.md) · [简体中文](architecture.zh-CN.md)
+
 This document gives a deliberately high-level view of Modelify's architecture.
 
 It is intended to help users and integrators understand how the product is organized without exposing proprietary production implementation details.
