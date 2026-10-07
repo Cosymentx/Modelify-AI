@@ -114,7 +114,8 @@ Read the [architecture overview](docs/architecture.md) for more.
 │   ├── api-overview.md
 │   └── api-overview.zh-CN.md
 └── examples/
-    └── curl-example.md
+    ├── curl-example.md
+    └── curl-example.zh-CN.md
 ```
 
 ## API & integrations
