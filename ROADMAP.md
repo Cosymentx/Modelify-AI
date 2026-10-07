@@ -1,5 +1,7 @@
 # Modelify Roadmap
 
+[English](ROADMAP.md) · [简体中文](ROADMAP.zh-CN.md)
+
 This roadmap describes the public-facing direction of Modelify. Priorities may change as the product evolves and as real customer and developer demand becomes clearer.
 
 ## Now
