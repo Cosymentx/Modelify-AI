@@ -19,6 +19,51 @@
 
 ---
 
+## 生成效果示例
+
+以下为 Modelify 工作流中的真实示例，包括商品输入图与生成的时尚模特效果。
+
+### 多角度生成
+
+<p align="center">
+  <img src="assets/showcase/model-results-grid.jpg" alt="Modelify 多角度 AI 时尚模特图生成效果" width="100%" />
+</p>
+
+<p align="center">
+  <sub>支持正面、45°、侧面和背面等多角度商品展示。</sub>
+</p>
+
+### 商品输入图
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/showcase/product-patterned-shirt.jpg" alt="花纹衬衫商品输入图" width="90%" />
+      <br />
+      <sub><b>花纹衬衫输入图</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/showcase/product-denim-shirt.jpg" alt="牛仔衬衫商品输入图" width="90%" />
+      <br />
+      <sub><b>牛仔衬衫输入图</b></sub>
+    </td>
+  </tr>
+</table>
+
+### Lifestyle / Campaign 生成效果
+
+<p align="center">
+  <img src="assets/showcase/lifestyle-comparison.jpg" alt="Modelify 生成的 Lifestyle 时尚模特效果" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/showcase/editorial-example.jpg" alt="Modelify 生成的 Editorial Campaign 时尚效果" width="55%" />
+</p>
+
+<p align="center">
+  <sub>可生成 Lifestyle、Catalog 和 Campaign 等不同风格的时尚商品素材。</sub>
+</p>
+
 ## 免费 Fashion AI 资源
 
 如果你正在做 AI 时尚摄影或电商商品图，可以从这些内容开始：
