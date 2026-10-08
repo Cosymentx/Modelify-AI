@@ -25,6 +25,51 @@
 
 ---
 
+## Example Results
+
+Real examples from Modelify workflows, showing product inputs and generated fashion imagery.
+
+### Multi-angle generation
+
+<p align="center">
+  <img src="assets/showcase/model-results-grid.jpg" alt="Modelify multi-angle AI fashion model generation results" width="100%" />
+</p>
+
+<p align="center">
+  <sub>Front, 45°, side, and back views for fashion product presentation.</sub>
+</p>
+
+### Source product images
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/showcase/product-patterned-shirt.jpg" alt="Patterned shirt product image" width="90%" />
+      <br />
+      <sub><b>Patterned shirt input</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/showcase/product-denim-shirt.jpg" alt="Denim shirt product image" width="90%" />
+      <br />
+      <sub><b>Denim shirt input</b></sub>
+    </td>
+  </tr>
+</table>
+
+### Lifestyle & campaign outputs
+
+<p align="center">
+  <img src="assets/showcase/lifestyle-comparison.jpg" alt="Modelify generated lifestyle fashion model results" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/showcase/editorial-example.jpg" alt="Modelify generated editorial fashion campaign example" width="55%" />
+</p>
+
+<p align="center">
+  <sub>Generated lifestyle, catalog, and campaign-style fashion imagery.</sub>
+</p>
+
 ## Free Fashion AI Resources
 
 If you're working on AI fashion photography or e-commerce imagery, start here:
