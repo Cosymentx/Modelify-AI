@@ -32,7 +32,7 @@ Real examples from Modelify workflows, showing product inputs and generated fash
 ### Multi-angle generation
 
 <p align="center">
-  <img src="assets/showcase/model-results-grid.jpg" alt="Modelify multi-angle AI fashion model generation results" width="100%" />
+  <img src="assets/showcase/model-results-grid.png" alt="Modelify multi-angle AI fashion model generation results" width="100%" />
 </p>
 
 <p align="center">
@@ -59,11 +59,11 @@ Real examples from Modelify workflows, showing product inputs and generated fash
 ### Lifestyle & campaign outputs
 
 <p align="center">
-  <img src="assets/showcase/lifestyle-comparison.jpg" alt="Modelify generated lifestyle fashion model results" width="100%" />
+  <img src="assets/showcase/lifestyle-comparison.png" alt="Modelify generated lifestyle fashion model results" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/showcase/editorial-example.jpg" alt="Modelify generated editorial fashion campaign example" width="55%" />
+  <img src="assets/showcase/editorial-example.png" alt="Modelify generated editorial fashion campaign example" width="55%" />
 </p>
 
 <p align="center">
