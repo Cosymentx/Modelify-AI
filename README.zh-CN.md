@@ -26,7 +26,7 @@
 ### 多角度生成
 
 <p align="center">
-  <img src="assets/showcase/model-results-grid.jpg" alt="Modelify 多角度 AI 时尚模特图生成效果" width="100%" />
+  <img src="assets/showcase/model-results-grid.png" alt="Modelify 多角度 AI 时尚模特图生成效果" width="100%" />
 </p>
 
 <p align="center">
@@ -53,11 +53,11 @@
 ### Lifestyle / Campaign 生成效果
 
 <p align="center">
-  <img src="assets/showcase/lifestyle-comparison.jpg" alt="Modelify 生成的 Lifestyle 时尚模特效果" width="100%" />
+  <img src="assets/showcase/lifestyle-comparison.png" alt="Modelify 生成的 Lifestyle 时尚模特效果" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/showcase/editorial-example.jpg" alt="Modelify 生成的 Editorial Campaign 时尚效果" width="55%" />
+  <img src="assets/showcase/editorial-example.png" alt="Modelify 生成的 Editorial Campaign 时尚效果" width="55%" />
 </p>
 
 <p align="center">
